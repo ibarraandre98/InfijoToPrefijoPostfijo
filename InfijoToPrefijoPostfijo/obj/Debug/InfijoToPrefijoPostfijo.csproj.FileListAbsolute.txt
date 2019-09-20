@@ -1,0 +1,10 @@
+C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\bin\Debug\InfijoToPrefijoPostfijo.exe.config
+C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\bin\Debug\InfijoToPrefijoPostfijo.exe
+C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\bin\Debug\InfijoToPrefijoPostfijo.pdb
+C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.csprojAssemblyReference.cache
+C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.Form1.resources
+C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.Properties.Resources.resources
+C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.csproj.GenerateResource.cache
+C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.csproj.CoreCompileInputs.cache
+C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.exe
+C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.pdb
