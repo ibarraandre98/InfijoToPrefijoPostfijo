@@ -195,7 +195,7 @@ namespace InfijoToPrefijoPostfijo
                 Stack<String> pila = new Stack<String>();
                 for (int i = 0; i < cadena.Length; i++)
                 {
-                    if((cadena[i]=='+'|| cadena[i] == '-' || cadena[i] == '*' || cadena[i] == '/')&&pila.Count>1)
+                    if((cadena[i]=='+'|| cadena[i] == '-' || cadena[i] == '*' || cadena[i] == '/')&&pila.Count>0)
                     {
                         for (int j = 0; j < 2; j++)
                         {
@@ -232,7 +232,7 @@ namespace InfijoToPrefijoPostfijo
                 Stack<String> pila = new Stack<String>();
                 for (int i = 0; i < cadena.Length; i++)
                 {
-                    if ((cadena[i] == '+' || cadena[i] == '-' || cadena[i] == '*' || cadena[i] == '/') && pila.Count > 1)
+                    if ((cadena[i] == '+' || cadena[i] == '-' || cadena[i] == '*' || cadena[i] == '/') && pila.Count > 0)
                     {
                         for (int j = 0; j < 2; j++)
                         {
