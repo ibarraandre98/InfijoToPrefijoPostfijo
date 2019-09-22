@@ -181,5 +181,88 @@ namespace InfijoToPrefijoPostfijo
             if ((a == '+' || a == '-') && (b == '*' || b == '/')) return true;
             else return false;
         }
+
+        private void BtnCalcularInfija_Click(object sender, EventArgs e)
+        {
+            if (rbPrefija.Checked == true)
+            {
+                String cadenaprincipal = txtPrefijaInfija.Text;
+                char[] arreglocadena = cadenaprincipal.ToCharArray();
+                Array.Reverse(arreglocadena);
+                String cadena = new String(arreglocadena);
+                MessageBox.Show(cadena);
+                String cadenatemp = null;
+                Stack<String> pila = new Stack<String>();
+                for (int i = 0; i < cadena.Length; i++)
+                {
+                    if((cadena[i]=='+'|| cadena[i] == '-' || cadena[i] == '*' || cadena[i] == '/')&&pila.Count>1)
+                    {
+                        for (int j = 0; j < 2; j++)
+                        {
+                            if (j == 1)
+                            {
+                                cadenatemp += cadena[i] + pila.Pop();
+                            }
+                            else
+                            {
+                                cadenatemp +=  pila.Pop();
+                            }
+                        }
+                        pila.Push("("+cadenatemp+")");
+                        cadenatemp = null;
+                    }
+                    else
+                    {
+                        pila.Push(cadena[i].ToString());
+                    }
+                }
+                String cadenafinal=null;
+                while (pila.Count > 0)
+                {
+                    cadenafinal += pila.Pop();
+                }
+                
+                txtResultadoInfija.Text = cadenafinal;
+            }
+            else
+            {
+                String cadena = txtPostfijaInfija.Text;
+                MessageBox.Show(cadena);
+                String cadenatemp = null;
+                Stack<String> pila = new Stack<String>();
+                for (int i = 0; i < cadena.Length; i++)
+                {
+                    if ((cadena[i] == '+' || cadena[i] == '-' || cadena[i] == '*' || cadena[i] == '/') && pila.Count > 1)
+                    {
+                        for (int j = 0; j < 2; j++)
+                        {
+                            if (j == 1)
+                            {
+                                cadenatemp += cadena[i] + pila.Pop();
+                            }
+                            else
+                            {
+                                cadenatemp += pila.Pop();
+                            }
+                        }
+                        pila.Push(")"+cadenatemp+"(");
+                        cadenatemp = null;
+                    }
+                    else
+                    {
+                        pila.Push(cadena[i].ToString());
+                    }
+                }
+                String cadenafinal = null;
+                while (pila.Count > 0)
+                {
+                    cadenafinal += pila.Pop();
+                }
+                char[] arreglocadena = cadenafinal.ToCharArray();
+                Array.Reverse(arreglocadena);
+                cadenafinal = new String(arreglocadena);
+                txtResultadoInfija.Text = cadenafinal;
+            }
+        }
     }
 }

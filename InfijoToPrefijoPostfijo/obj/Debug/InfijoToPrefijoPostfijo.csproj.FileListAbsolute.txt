@@ -8,3 +8,13 @@ C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\
 C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.csproj.CoreCompileInputs.cache
 C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.exe
 C:\Users\RayAs\source\repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.pdb
+C:\Users\Muski\Source\Repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\bin\Debug\InfijoToPrefijoPostfijo.exe.config
+C:\Users\Muski\Source\Repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\bin\Debug\InfijoToPrefijoPostfijo.exe
+C:\Users\Muski\Source\Repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\bin\Debug\InfijoToPrefijoPostfijo.pdb
+C:\Users\Muski\Source\Repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.csprojAssemblyReference.cache
+C:\Users\Muski\Source\Repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.Form1.resources
+C:\Users\Muski\Source\Repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.Properties.Resources.resources
+C:\Users\Muski\Source\Repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.csproj.GenerateResource.cache
+C:\Users\Muski\Source\Repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.csproj.CoreCompileInputs.cache
+C:\Users\Muski\Source\Repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.exe
+C:\Users\Muski\Source\Repos\InfijoToPrefijoPostfijo\InfijoToPrefijoPostfijo\obj\Debug\InfijoToPrefijoPostfijo.pdb
